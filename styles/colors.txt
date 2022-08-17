@@ -1,0 +1,38 @@
+Black	
+
+    Name: Black
+    Hex: #000000
+    RGB: (0, 0, 0)
+    CMYK: NAN, NAN, NAN, 1
+
+	
+Raisin Black	
+
+    Name: Raisin Black
+    Hex: #242424
+    RGB: (36, 36, 36)
+    CMYK: 0, 0, 0, 0.858
+
+	
+Floral White	
+
+    Name: Floral White
+    Hex: #FBFAEE
+    RGB: (251, 250, 238)
+    CMYK: 0, 0.003, 0.051, 0.015
+
+	
+Dark Orchid	
+
+    Name: Dark Orchid
+    Hex: #933DC9
+    RGB: (147, 61, 201)
+    CMYK: 0.268, 0.696, 0, 0.211
+
+	
+American Violet	
+
+    Name: American Violet
+    Hex: #53118F
+    RGB: (83, 17, 143)
+    CMYK: 0.419, 0.881, 0, 0.439
