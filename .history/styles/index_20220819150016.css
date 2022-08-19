@@ -34,7 +34,7 @@ section > h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     align-content: stretch;
     row-gap: 25px;
 }
@@ -43,7 +43,6 @@ section > h2 {
 div > i {
     /* so that there are 3 items per row */
     flex: 0 0 21%;
-    margin-left: 140px;
 }
 
 

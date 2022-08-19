@@ -43,7 +43,7 @@ section > h2 {
 div > i {
     /* so that there are 3 items per row */
     flex: 0 0 21%;
-    margin-left: 140px;
+    margin-right: 200px;
 }
 
 

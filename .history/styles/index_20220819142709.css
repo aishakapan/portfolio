@@ -4,7 +4,7 @@
 }
 
 i {
-    font-size: 150px;
+    font-size: 100px;
 }
 
 section > h2 {
@@ -33,19 +33,10 @@ section > h2 {
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-end;
-    align-content: stretch;
-    row-gap: 25px;
-}
+    justify-content: space-between;
+    align-items: center;
 
-/* skills container items */
-div > i {
-    /* so that there are 3 items per row */
-    flex: 0 0 21%;
-    margin-left: 140px;
 }
-
 
 .pfp {
     max-width: 300px;
