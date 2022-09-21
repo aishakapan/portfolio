@@ -7,28 +7,15 @@ i {
     font-size: 150px;
 }
 
-.highlight {
-    min-height: 100%;
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    padding: 1em;
-}
-
-
-section {
-    padding-bottom: 1em;
-    margin-top: 1em;
-}
 section > h2 {
     text-align: center;
 }
 
-/* .nav-container {
+.nav-container {
     display: flex;
     background-color: blueviolet;
     justify-content: space-between;
-} */
+}
 
 
 .about-container {
@@ -38,16 +25,9 @@ section > h2 {
     align-items: center;
 
 }
-article {
-    background-color: rgba(0, 0, 0, 0.8);
-    color:aliceblue;
-    padding: 25px;
-    border-radius: 25px;
-}
 
 .about-item {
     flex-basis: 1;
-    
 }
 
 .skills-container {
@@ -71,16 +51,9 @@ div > i {
 .pfp {
     max-width: 300px;
     max-height: 300px;
-    border: 2px dashed black;
 }
 
 
 .skillset {
-    background-color: lightgray;
-}
-
-.projects {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    background-color: gray;
 }

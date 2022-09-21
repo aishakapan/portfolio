@@ -8,7 +8,6 @@ i {
 }
 
 .highlight {
-    min-height: 100%;
     background-color: black;
     color: aliceblue;
     text-align: center;
@@ -17,8 +16,8 @@ i {
 
 
 section {
-    padding-bottom: 1em;
-    margin-top: 1em;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 section > h2 {
     text-align: center;

@@ -7,28 +7,15 @@ i {
     font-size: 150px;
 }
 
-.highlight {
-    min-height: 100%;
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    padding: 1em;
-}
-
-
-section {
-    padding-bottom: 1em;
-    margin-top: 1em;
-}
 section > h2 {
     text-align: center;
 }
 
-/* .nav-container {
+.nav-container {
     display: flex;
     background-color: blueviolet;
     justify-content: space-between;
-} */
+}
 
 
 .about-container {
@@ -71,7 +58,7 @@ div > i {
 .pfp {
     max-width: 300px;
     max-height: 300px;
-    border: 2px dashed black;
+    border: 2px solid black;
 }
 
 
