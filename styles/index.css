@@ -1,3 +1,16 @@
+:root {
+    --col-black: #1f1f1f;
+    --col-white: #707070;
+    --col-grey: #d4d4d4;
+    --col-red: #a80000;
+    --col-dark-red: #731010;
+
+    --font-menu-size: 10em;
+    --font-subtitle-size: 5em;
+    --font-paragraph-size: 1em;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,56 +20,14 @@ i {
     font-size: 150px;
 }
 
-.highlight {
-    min-height: 100%;
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    padding: 1em;
-}
-
 
 section {
     padding-bottom: 1em;
     margin-top: 1em;
 }
+
 section > h2 {
     text-align: center;
-}
-
-/* .nav-container {
-    display: flex;
-    background-color: blueviolet;
-    justify-content: space-between;
-} */
-
-
-.about-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-
-}
-article {
-    background-color: rgba(0, 0, 0, 0.8);
-    color:aliceblue;
-    padding: 25px;
-    border-radius: 25px;
-}
-
-.about-item {
-    flex-basis: 1;
-    
-}
-
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-end;
-    align-content: stretch;
-    row-gap: 25px;
 }
 
 /* skills container items */
@@ -67,6 +38,41 @@ div > i {
     margin-left: 140px;
 }
 
+article {
+    background-color: rgba(0, 0, 0, 0.8);
+    color:aliceblue;
+    padding: 25px;
+    border-radius: 25px;
+}
+/* .nav-container {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+} */
+
+.highlight {
+    min-height: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 1em;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.about-item {
+    flex-basis: 1;
+    
+}
+
+
 
 .pfp {
     max-width: 300px;
@@ -75,12 +81,21 @@ div > i {
 }
 
 
-.skillset {
-    background-color: lightgray;
-}
-
 .projects {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.skillset {
+    background-color: lightgray;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: stretch;
+    row-gap: 25px;
 }
