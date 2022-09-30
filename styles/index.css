@@ -6,7 +6,7 @@
     --col-dark-red: #731010;
 
     --font-menu-size: 10vw;
-    --font-subtitle-size: 4em;
+    --font-subtitle-size: 6vw;
     --font-paragraph-size: 1em;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 li a:link, a:visited {
-    color: var(--col-dark-red)
+    color: var(--col-dark-red);
 }
 
 li a:hover {
@@ -107,33 +107,49 @@ div > img {
     min-height: 22rem;
     max-height: 22rem;
 }
+
+
 /* icons for skills */
 i {
-    font-size: 6em;
-}
-
-/* skills container items */
-div > i {
-    /* so that there are 3 items per row */
-    flex: 0 0 21%;
-    /* to center items in the page */
-    margin-left: 1em;
-    /* margin-right: 0.5em; */
+    font-size: 10vw;
 }
 
 
+.skills-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-end;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7vw;
+    padding-top: 2em;
+    padding-bottom: 7em;
+}
+
+/* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     align-content: stretch;
     row-gap: 2.5em;
     background-color: lightgray;
     padding-top: 2em;
-    padding-bottom: 8em;
-}
+    padding-bottom: 8em; */
+
+ /* padding-left: 4em;
+    padding-right: 3em; */
+
+
+/* skills container items
+div > i {
+    /* so that there are 3 items per row */
+    /* flex: 0 0 21%; */
+    /* to center items in the page */
+    /* margin-left: 1em; */
+    /* margin-right: 0.5em; 
+} */
 
 .contact {
     display: flex;
@@ -151,6 +167,7 @@ div > i {
 /* .contact-form {
     flex-basis: 40%;
 } */
+
 
 
 /* section > h2 {
